@@ -8,6 +8,8 @@ workflows:
       xcode: latest
       cocoapods: default
     scripts:
+      - name: Disable Swift Package Manager (CocoaPods-only, avoids forced Dev Team signing)
+        script: flutter config --no-enable-swift-package-manager
       - name: Get Flutter packages
         script: flutter pub get
       - name: Build unsigned iOS app
