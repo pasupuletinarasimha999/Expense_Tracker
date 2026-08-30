@@ -1,0 +1,25 @@
+.gradle/
+.idea/
+local.properties
+*.iml
+
+# Flutter/Dart
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+build/
+android/.gradle/
+android/local.properties
+android/app/upload-keystore.jks
+android/key.properties
+ios/Pods/
+ios/.symlinks/
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+**/*.g.dart
+**/*.freezed.dart
+
+# OS
+.DS_Store
+Thumbs.db

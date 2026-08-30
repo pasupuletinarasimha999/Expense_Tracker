@@ -1,0 +1,62 @@
+name: expense_tracker
+description: "Track expenses, budgets, and trips"
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.13.2
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^1.0.8
+
+  # State management
+  flutter_riverpod: ^2.6.1
+
+  # Routing
+  go_router: ^14.8.1
+
+  # Local database
+  drift: ^2.23.1
+  sqlite3_flutter_libs: ^0.5.28
+  path_provider: ^2.1.5
+  path: ^1.9.1
+
+  # Preferences
+  shared_preferences: ^2.3.5
+
+  # Formatting
+  intl: ^0.19.0
+
+  # Auth + Drive sync
+  google_sign_in: ^6.2.2
+  http: ^1.2.2
+
+  # Biometric app lock
+  local_auth: ^2.3.0
+
+  # Notifications
+  flutter_local_notifications: ^18.0.1
+  timezone: ^0.9.4
+
+  # Export / sharing
+  pdf: ^3.11.1
+  share_plus: ^10.1.4
+  path_provider_android: ^2.2.14
+
+  # Misc
+  permission_handler: ^11.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^6.0.0
+
+  drift_dev: ^2.23.1
+  build_runner: ^2.4.13
+
+flutter:
+  uses-material-design: true
